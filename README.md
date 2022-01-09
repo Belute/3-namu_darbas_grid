@@ -11,7 +11,7 @@ _32 group website project_
 
 This project is for **educational** porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://belute.github.io/2-serlokasupdate/
+Site published at: https://belute.github.io/3-namu_darbas_grid/
 
 
 ## Project features
