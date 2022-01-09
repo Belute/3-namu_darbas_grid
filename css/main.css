@@ -43,6 +43,9 @@ div {
   display:none;
 }
 
+.container {
+    border:none;
+}
 
 .soc {
     /* text-align: center; */
@@ -303,6 +306,8 @@ div {
 
  
 }
+
+
 
 
 }
