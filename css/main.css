@@ -1,0 +1,288 @@
+
+
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+        
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px 20px;
+    justify-content: center;
+    text-align: center;
+  
+    
+}
+
+
+div {
+    grid-column-start: 2;
+    border: 1px solid red;
+    padding: 10px;
+    justify-content: center;
+    
+}
+
+.servi {
+    display: grid;
+    border: 1px solid green;
+    padding: 10px;
+}
+
+.test {
+    display: grid;
+    border: 1px solid green;
+    padding: 10px;
+}
+
+
+@media (min-width: 600px) {
+
+    body {
+    display: grid;
+    grid-template-columns: 1fr 500px 1fr;
+    gap: 15px 20px;
+    justify-content: center;
+    grid-template-areas: 
+     "head"
+     "hero"
+     "service"
+     "testi"
+     "freel"
+     "foot"
+    
+}
+
+
+div {
+    grid-column-start: 2;
+    border: 1px solid red;
+    padding: 10px;
+    justify-content: center;
+    
+}
+
+.headtitle {
+    display:none;
+}
+
+.head {
+  
+    grid-area: head;
+    grid-template-columns: 1fr 500px 1fr;
+
+}
+
+.hero {
+    grid-area: hero;
+    grid-template-columns: 1fr 500px 1fr;
+    
+}
+
+.service {
+
+    grid-area: service;
+    grid-template-columns: 1fr 500px 1fr;
+}
+
+.testi {
+    grid-area: testi;
+    grid-template-columns: 1fr 500px 1fr;
+}
+
+.freel {
+    grid-area: freel;
+    grid-template-columns: 1fr 500px 1fr;
+
+}
+
+.foot {
+    grid-area: foot;
+    grid-template-columns: 1fr 500px 1fr;
+}
+.borders {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    gap: 350px;
+}
+
+.border1 {
+    border:1px solid #fcf;
+    width: 20px;
+
+
+}
+
+.border2 {
+    border:1px solid #fcf;
+    width: 70px;
+    
+
+
+}
+
+.soc {
+    /* text-align: center; */
+}
+
+
+.container {
+    display: flex;
+    gap:20px;
+    border:none;
+   
+}
+.servi  {
+    flex-direction: row;
+    border: 1px solid green;
+    padding: 10px;
+    width: 150px;
+}
+
+.st {
+    display: none;
+}
+
+
+.test {
+    display: grid;
+    border: 1px solid green;
+    padding: 10px;
+}
+
+.nav {
+    display:none;
+
+}
+
+
+
+}
+
+@media (min-width: 900px) {
+
+    body {
+    display: grid;
+    grid-template-columns: 1fr 800px 1fr;
+    gap: 15px 20px;
+    justify-content: center;
+    grid-template-areas: 
+     "head head"
+     "hero hero"
+      "testi ads"
+     "service ads"
+     "freel ads"
+     "foot foot"
+    
+}
+
+
+div {
+    grid-column-start: 2;
+    border: 1px solid red;
+    padding: 10px;
+    justify-content: center;
+    
+}
+
+.headtitle {
+    display:none;
+}
+
+.head {
+  
+    grid-area: head;
+    grid-template-columns: 1fr 500px 1fr;
+
+}
+
+.hero {
+    grid-area: hero;
+    grid-template-columns: 1fr 500px 1fr;
+    
+}
+
+.service {
+
+    grid-area: service;
+    grid-template-columns: 1fr 500px 1fr;
+}
+
+.testi {
+    grid-area: testi;
+    grid-template-columns: 1fr 500px 1fr;
+}
+
+.freel {
+    grid-area: freel;
+    grid-template-columns: 1fr 500px 1fr;
+
+}
+
+.foot {
+    grid-area: foot;
+    grid-template-columns: 1fr 500px 1fr;
+}
+.borders {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    gap: 350px;
+}
+
+.border1 {
+    border:1px solid #fcf;
+    width: 20px;
+
+
+}
+
+.border2 {
+    border:1px solid #fcf;
+    width: 70px;
+    
+
+
+}
+
+.soc {
+    /* text-align: center; */
+}
+
+
+.container {
+    display: flex;
+    gap:20px;
+    border:none;
+   
+}
+.servi  {
+    flex-direction: row;
+    border: 1px solid green;
+    padding: 10px;
+    width: 150px;
+}
+
+.st {
+    display: none;
+}
+
+
+.test {
+    display: grid;
+    border: 1px solid green;
+    padding: 10px;
+}
+
+.nav {
+    display:none;
+
+}
+
+
+
+}
