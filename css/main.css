@@ -38,6 +38,16 @@ div {
     padding: 10px;
 }
 
+.borders {
+  display:none;
+}
+
+
+.soc {
+    /* text-align: center; */
+}
+
+
 
 @media (min-width: 600px) {
 
@@ -47,15 +57,19 @@ div {
     gap: 15px 20px;
     justify-content: center;
     grid-template-areas: 
-     "head"
-     "hero"
-     "service"
-     "testi"
-     "freel"
-     "foot"
+     ".head"
+     ".hero"
+     ".service"
+     ".testi"
+     ".freel"
+     ".foot"
     
 }
 
+.ads {
+    display: none;
+    justify-content: center;
+}
 
 div {
     grid-column-start: 2;
@@ -158,8 +172,6 @@ div {
     display:none;
 
 }
-
-
 
 }
 
@@ -167,71 +179,78 @@ div {
 
     body {
     display: grid;
-    grid-template-columns: 1fr 800px 1fr;
+    grid-template-columns: 2fr 600px 2fr;
     gap: 15px 20px;
-    justify-content: center;
+    margin-left: calc((1000px - 600px)/2);
     grid-template-areas: 
-     "head head"
-     "hero hero"
-      "testi ads"
-     "service ads"
-     "freel ads"
-     "foot foot"
+     "  head head"
+     "  hero hero"
+      " testi ads"
+     "  service ads"
+     "  freel ads"
+     "  foot foot"
+
     
 }
 
 
 div {
-    grid-column-start: 2;
+  
     border: 1px solid red;
     padding: 10px;
     justify-content: center;
-    
+    grid-template-columns: 1fr 600px 1fr;
 }
 
 .headtitle {
     display:none;
+
 }
 
 .head {
   
     grid-area: head;
-    grid-template-columns: 1fr 500px 1fr;
+   
 
 }
 
 .hero {
     grid-area: hero;
-    grid-template-columns: 1fr 500px 1fr;
+  
     
 }
 
 .service {
 
     grid-area: service;
-    grid-template-columns: 1fr 500px 1fr;
+    
 }
 
 .testi {
     grid-area: testi;
-    grid-template-columns: 1fr 500px 1fr;
+  
 }
 
 .freel {
     grid-area: freel;
-    grid-template-columns: 1fr 500px 1fr;
+ 
 
 }
 
 .foot {
     grid-area: foot;
-    grid-template-columns: 1fr 500px 1fr;
+  
 }
+
+.ads {
+    grid-area: ads;
+}
+
 .borders {
     display: flex;
     flex-direction: row;
     border: none;
-    gap: 350px;
+    gap: 900px;
 }
 
 .border1 {
@@ -282,6 +301,7 @@ div {
     display:none;
 
 }
+
 
 
 
