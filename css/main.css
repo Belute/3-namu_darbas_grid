@@ -13,6 +13,7 @@ body {
     gap: 15px 20px;
     justify-content: center;
     text-align: center;
+    /* margin-top: 5%; */
   
     
 }
@@ -66,10 +67,8 @@ div {
     
 }
 
-.ads {
-    display: none;
-    justify-content: center;
-}
+
+
 
 div {
     grid-column-start: 2;
@@ -153,7 +152,7 @@ div {
 .servi  {
     flex-direction: row;
     border: 1px solid green;
-    padding: 10px;
+    padding: 5px;
     width: 150px;
 }
 
@@ -165,7 +164,7 @@ div {
 .test {
     display: grid;
     border: 1px solid green;
-    padding: 10px;
+    padding: 5px;
 }
 
 .nav {
@@ -179,7 +178,6 @@ div {
 
     body {
     display: grid;
-    grid-template-columns: 2fr 600px 2fr;
     gap: 15px 20px;
     margin-left: calc((1000px - 600px)/2);
     grid-template-areas: 
@@ -250,7 +248,7 @@ div {
     display: flex;
     flex-direction: row;
     border: none;
-    gap: 900px;
+    gap: 500px;
 }
 
 .border1 {
@@ -266,10 +264,6 @@ div {
     
 
 
-}
-
-.soc {
-    /* text-align: center; */
 }
 
 
@@ -302,7 +296,13 @@ div {
 
 }
 
+.ads {
+ grid-area: ads;
+ text-align: center;
+ padding-top: 30%;
 
+ 
+}
 
 
 }
