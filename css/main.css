@@ -46,7 +46,13 @@ div {
 .container {
     border:none;
 }
+.testicol {
+    border:none;
+}
 
+.ads {
+    display: none;
+}
 .soc {
     /* text-align: center; */
 }
@@ -70,7 +76,9 @@ div {
     
 }
 
-
+.ads {
+    display: none;
+}
 
 
 div {
@@ -164,15 +172,33 @@ div {
 }
 
 
+.testicol {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    gap:20px;
+}
+
 .test {
-    display: grid;
+  
     border: 1px solid green;
     padding: 5px;
+    width: 150px;
+  
 }
+
+
 
 .nav {
     display:none;
 
+}
+
+
+
+
+.bordernav {
+    display: none;
 }
 
 }
@@ -251,7 +277,7 @@ div {
     display: flex;
     flex-direction: row;
     border: none;
-    gap: 500px;
+    gap: 350px;
 }
 
 .border1 {
@@ -272,19 +298,16 @@ div {
 
 .container {
     display: flex;
+    flex-direction: row;
     gap:20px;
     border:none;
    
 }
-.servi  {
-    flex-direction: row;
+.servi {
+    display: flex;
     border: 1px solid green;
     padding: 10px;
     width: 150px;
-}
-
-.st {
-    display: none;
 }
 
 
@@ -307,6 +330,14 @@ div {
  
 }
 
+
+.ads {
+    display: inline;
+}
+.bordernav {
+    width:70px;
+    display:inline;
+}
 
 
 
